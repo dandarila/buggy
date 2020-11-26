@@ -14,8 +14,7 @@ function Navbar() {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);
-
-  return (
+   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar'>
